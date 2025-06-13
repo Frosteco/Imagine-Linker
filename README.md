@@ -1,2 +1,32 @@
 # Imagine-Linker
-Reddit bot for sharing links
+![Imagine LInker logo](https://github.com/Frosteco/Imagine-Linker/blob/main/Imagine%20Linker%20logo.png "I'll shatter that DMCA of yours!")
+
+Imagine Linker is a Reddit bot that monitors a subreddit and DMs users who requested it.
+
+Every time user comments under a post, the bot checks whether the comment matches the trigger expression.
+
+If it finds an exact match, it sends a DM to the user who posted the comment.
+
+The monitored subreddit, trigger expression and structure of DMs can be specified in the config file.
+
+## Why was this bot created?
+
+This reddit bot was created in June 2025 after the subreddit r/toarumajutsunoindex got banned for "excessive copyright removals". The most probable cause of this ban could have been the links on the subreddit's wiki. These links led to various websites, providing the means to purchase and read the source material. Due to a changing nature of global licenses (mainly the licensing of New testament series by Yen Press), the subreddit got a DMCA claim and was shut down by Reddit.
+
+### What is a DMCA claim and is it bad?
+The DMCA claim and takedown process is a tool for copyright holders to get copyrighted material taken down of websites. A DMCA claim informs a company that they are hosting or linking to copyrighted material.
+
+Since Reddit doesn't want to deal with international court, it quickly removes the claimed material. And since Reddit is a large website with a lot of data, it doesn't have the resources to do a thorough check of every DMCA claim's scale. Therefore, Reddit will ban the entire subreddit instead of just removing the wiki.
+
+While the reason of DMCA's existence is valid, the way it is enforced is often radical and vague (the original laws were not made with high-speed Internet in mind). Years of content were lost simply because of a sudden change in licensing and it's radical enforcement. The claims may also be false positives, having the same effect without the right to do so. While it is possible to appeal for these claims, Reddit is still a company that makes money and fears legal actions (a thorough investigation may not be as thorough, since time = money, time = legal action and legal action = money).
+
+
+## Why use a bot for sharing links?
+Sharing links using this bot has many benefits for a subreddit:
+1. Ban-prevention - using a bot instead of a wiki for links tranfers the potencial ban onto the bot, leaving a subredit ban-safe
+2. Liability-tranfer - if the bot is operated by a third party (with no connection to the subreddit's mod team), the liability is shifted away from the subreddit
+3. Decentralisation - If one user's bot gets a DMCA claim, they can remove the bot without any remorse to avoid penalties and another user can quickly set up their own bot with the links (and if possible address the DMCA issue)
+4. Open-source - anyone can implement this bot on any subreddit, fork it to their liking or help develop the original codebase
+
+## Getting started
+TBD
