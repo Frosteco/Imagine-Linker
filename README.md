@@ -7,7 +7,7 @@ Every time user comments under a post, the bot checks whether the comment matche
 
 If it finds an exact match, it sends a DM to the user who posted the comment.
 
-The monitored subreddit, trigger expression and structure of DMs can be specified in the config file.
+The monitored subreddit, trigger expression and the structure of DMs can be specified in the config file.
 
 ## Why was this bot created?
 
@@ -23,10 +23,13 @@ While the reason of DMCA's existence is valid, the way it is enforced is often r
 
 ## Why use a bot for sharing links?
 Sharing links using this bot has many benefits for a subreddit:
-1. Ban-prevention - using a bot instead of a wiki for links tranfers the potencial ban onto the bot, leaving a subredit ban-safe
-2. Liability-tranfer - if the bot is operated by a third party (with no connection to the subreddit's mod team), the liability is shifted away from the subreddit
-3. Decentralisation - If one user's bot gets a DMCA claim, they can remove the bot without any remorse to avoid penalties and another user can quickly set up their own bot with the links (and if possible address the DMCA issue)
+1. Ban-prevention - using a bot instead of a wiki for links will tranfer the potencial ban onto the bot, leaving a subreddit ban-safe
+2. Liability-transfer - if the bot is operated by a third party user (with no connection to the subreddit's mod team), the liability is shifted away from the subreddit
+3. Decentralisation - If one user's bot gets a DMCA claim, they can remove the bot without any remorse to avoid problems and another user can quickly set up their own bot with the links
 4. Open-source - anyone can implement this bot on any subreddit, fork it to their liking or help develop the original codebase
 
 ## Getting started
+TBD
+
+## Disclaimer
 TBD
