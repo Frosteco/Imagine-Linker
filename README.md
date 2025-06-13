@@ -23,13 +23,24 @@ While the reason of DMCA's existence is valid, the way it is enforced is often r
 
 ## Why use a bot for sharing links?
 Sharing links using this bot has many benefits for a subreddit:
-1. Ban-prevention - using a bot instead of a wiki for links will tranfer the potencial ban onto the bot, leaving a subreddit ban-safe
-2. Liability-transfer - if the bot is operated by a third party user (with no connection to the subreddit's mod team), the liability is shifted away from the subreddit
-3. Decentralisation - If one user's bot gets a DMCA claim, they can remove the bot without any remorse to avoid problems and another user can quickly set up their own bot with the links
+1. Ban prevention - using a bot instead of a wiki for links will tranfer the potencial ban onto the bot, leaving a subreddit ban-safe
+2. Liability transfer - if the bot is operated by a third party user (with no connection to the subreddit's mod team), the liability is shifted away from the subreddit
+3. Decentralization - If one user's bot gets a DMCA claim, they can remove the bot without any remorse to avoid problems and another user can quickly set up their own bot with the links
 4. Open-source - anyone can implement this bot on any subreddit, fork it to their liking or help develop the original codebase
 
 ## Getting started
-TBD
-
-## Disclaimer
-TBD
+1. Create the bot's reddit account (write down the account's name and password
+2. Login to https://www.reddit.com/prefs/apps/ with the bot's account
+3. Click "Create app" - fill out "name" with random selected name, select "script" option, fill out "redirect uri" with "http://www.example.com/unused/redirect/uri"
+4. Write down the client_id and client_secret (the 2 long strings on the app profile)
+5. Download the folder "Imagine Linker" from GitHub
+### A) Running from your device
+6. Open "config.py", fill out the config by following comments
+7. Run "bot.py" (ctrl+F5 in VS Code, or Rightclick - Open with - Python)
+8. Your device has to be online 24/7 if possible, or make it run on startup so people get a DM at least once a day (don't worry, it ignores previously parsed comments so there should be no spam)
+### B) Running from cloud
+6. Create an account on https://www.pythonanywhere.com/registration/register/beginner/ (free account)
+7. Click "Browse files", then "Upload files"
+8. From "Imagine Linker" folder upload "bot.py" and "config.py"
+9. Open "bot.py" on the PythonAnywhere, select ">>>Run"
+10. Don't worry about the CPU usage going up (soft limit, it resets every day and app just works slower after 100%)
